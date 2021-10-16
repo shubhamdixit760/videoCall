@@ -1,7 +1,7 @@
-const socket = io('tcp://8.tcp.ngrok.io:18673 ')
+const socket = io('/')
 const videoGrid = document.getElementById('video-grid')
 const myPeer = new Peer(undefined,{
-    host:'tcp://8.tcp.ngrok.io:18673 ',
+    host:'/',
     port:'3001'
 })
 
