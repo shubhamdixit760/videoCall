@@ -1,1 +1,1 @@
-web:peerjs --port process.env.PORT+1 & node server.js wait -n;
+web:node server.js
