@@ -1,8 +1,8 @@
-const socket = io('/')
+const socket = io('https://videocallexpress.herokuapp.com/')
 const videoGrid = document.getElementById('video-grid')
 const myPeer = new Peer(undefined,{
-    host:'/',
-    port:'3001'
+    host:'https://videocallexpress.herokuapp.com/',
+    port:'9000'
 })
 
 const myVideo = document.createElement('video')
